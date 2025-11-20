@@ -112,13 +112,9 @@ const Index = () => {
 
       <section id="hero" className="pt-32 pb-20 px-6 animate-fade-in">
         <div className="container mx-auto text-center">
-          <h2 className="text-6xl md:text-8xl font-bold mb-6 glow-cyan animate-pulse-glow">WithPet</h2>
-          <p className="text-2xl md:text-3xl mb-8 text-secondary glow-purple">
-            Создаём цифровых компаньонов будущего
-          </p>
-          <p className="text-lg text-foreground/70 max-w-2xl mx-auto mb-12">
-            Разрабатываем уникальных анимированных персонажей для игр, метавселенных и брендов с футуристичным неоновым стилем
-          </p>
+          <h2 className="md:text-8xl font-bold mb-6 glow-cyan animate-pulse-glow py-0 text-9xl">WithPet</h2>
+          <p className="md:text-3xl mb-8 text-secondary glow-purple font-light text-3xl">Цифровые компаньоны будущего</p>
+          <p className="text-lg text-foreground/70 max-w-2xl mx-auto mb-12">Разрабатываем уникальных анимированных персонажей для игр, метавселенных и брендов с футуристичным стилем</p>
           <div className="flex gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 border-glow text-lg px-8">
               <Icon name="Sparkles" className="mr-2" size={20} />
@@ -134,8 +130,8 @@ const Index = () => {
 
       <section id="portfolio" className="py-20 px-6">
         <div className="container mx-auto">
-          <h3 className="text-5xl font-bold text-center mb-4 glow-purple">Портфолио</h3>
-          <p className="text-center text-foreground/70 mb-16 text-lg">Наши виртуальные создания</p>
+          <h3 className="text-5xl font-bold text-center mb-4 glow-purple text-slate-50">Портфолио</h3>
+          <p className="text-center text-foreground/70 mb-16 text-lg">Наши маскоты</p>
           <div className="grid md:grid-cols-3 gap-8">
             {portfolioItems.map((item, index) => (
               <Card
