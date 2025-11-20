@@ -112,9 +112,7 @@ const Index = () => {
 
       <section id="hero" className="pt-32 pb-20 px-6 animate-fade-in">
         <div className="container mx-auto text-center">
-          <h2 className="text-6xl md:text-8xl font-bold mb-6 glow-cyan animate-pulse-glow">
-            ВИРТУАЛЬНЫЕ ПИТОМЦЫ
-          </h2>
+          <h2 className="text-6xl md:text-8xl font-bold mb-6 glow-cyan animate-pulse-glow">WithPet</h2>
           <p className="text-2xl md:text-3xl mb-8 text-secondary glow-purple">
             Создаём цифровых компаньонов будущего
           </p>
